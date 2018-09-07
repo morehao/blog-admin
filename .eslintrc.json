@@ -2,7 +2,7 @@
     "extends": "standard",
     "root": true,
     "parserOptions": {
-        "ecmaVersion": 6,
+        "ecmaVersion": 8,
         "sourceType": "module"
     },
     "env": {
@@ -11,14 +11,14 @@
     },
     "plugins": [ "html", "standard" ],
     "rules": {
-        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "indent": ["error", 2, { "SwitchCase": 1 }],
         "quotes": ["error", "single"],
-        "semi": ["error", "always"],
         "no-console": ["error"],
         "no-empty": 2,
         "no-eq-null": 2,
         "no-new": 0,
         "no-fallthrough": 0,
-        "no-unreachable": 0
+        "no-unreachable": 0,
+        "semi": 0
     }
 }
